@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var myNumber = prompt("Give me a number, any number...");
+      var onesPlace = Math.floor(myNumber % 10);
+      var tensPlace = Math.floor(myNumber/10 % 10);
+      var hundredsPlace = Math.floor(myNumber/100 % 10);
+      var thousandsPlace = Math.floor(myNumber/1000 % 10);
+
+      console.log(thousandsPlace + " thousands<br>" + hundredsPlace + " hundreds<br>" + tensPlace + " tens<br>" + onesPlace + " ones");
+      document.write(thousandsPlace + " thousands<br>" + hundredsPlace + " hundreds<br>" + tensPlace + " tens<br>" + onesPlace + " ones");
+    </script>
+  </body>
+</html>
